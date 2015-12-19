@@ -8,34 +8,39 @@
   </head>
   <body>
     <!--Header links-->
-    <ul>
+    <ul class="header">
         <li>Gmail</li>
         <li>Images</li>
         <li></li>
-        <li><div>Sign in</div></li>
+        <li><div id="sign_in"><span id="login">Sign In</span></div></li>
     </ul>
     <!--Body-->
-    <a href="https://www.google.com">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-    </a>
-    <form>
-      <input type="text"/>
-      <input type="button" value="Google Search"/>
-      <input type="button" value="I'm feeling Lucky"/>
-    </form>
+    <center>
+      <a href="https://www.google.com">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+      </a>
+      <form>
+        <div id="search">
+          <input id="search_text" type="text"/>
+        </div>
+        <input class="buttons" type="button" id="search_button" value="Google Search"/>
+        <input class="buttons" type="button" id="lucky" value="I'm feeling Lucky"/>
+      </form>
+    </center>
     <!--footer-->
-    <div></div>
-    <!--Footer links-->
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+    <div id="footer">
+      <!--Footer links-->
+      <ul class="footer_block" id="left">
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>About</li>
+      </ul>
+      <ul class="footer_block" id="right">
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
+        <li>Use Google.co.in</li>
+      </ul>
+    </div>
   </body>
 </html>
