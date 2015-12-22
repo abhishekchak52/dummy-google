@@ -14,7 +14,7 @@ ul {
 li {
   padding-left: 27px;
 }
-li:hover {
+.hyper:hover {
   text-decoration: underline;
 }
 * {
@@ -30,7 +30,6 @@ li:hover {
   display: flex;
 }
 .buttons {
-  padding: 1px 16px 1px 16px;
   font-family: arial,sans-serif;
   text-align: center;
   background-color: #f2f2f2;
@@ -74,7 +73,9 @@ li:hover {
 #search {
   height: 38px;
   width: 484px;
-  border: 1px solid #d9d9d9;
+  border-style: ridge;
+  border-color: #d9d9d9;
+  border-width: 1px;
   display: block;
   font-size: 13px;
   white-space: nowrap;
@@ -114,5 +115,8 @@ li:hover {
 #login {
   position: relative;
   top:5px;
+  text-decoration:none;
+}
+span:hover {
   text-decoration:none;
 }

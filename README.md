@@ -3,4 +3,6 @@ A dummy of the Google homepage which does absolutely nothing.An attempt to creat
 
 
 # Bugs
-- Sign in button shows underline behavior on hover.
+- ~~Sign in button shows underline behavior on hover.~~[Closed 22 Dec '15]
+- Search box doesn't have bottom and right border.
+
