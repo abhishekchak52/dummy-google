@@ -1,0 +1,12 @@
+# dummy-google
+A dummy of the Google homepage which does absolutely nothing.An attempt to create a static copy of Google's homepage.
+
+
+# Bugs
+- ~~Sign in button shows underline behavior on hover.~~[Closed 22 Dec '15]
+<<<<<<< HEAD
+- Search box doesn't have bottom and right border.
+=======
+- Search box doean't have bottom and right border.
+>>>>>>> 5e6aa5365b513b78e4c9259231cd3af624e4fdcb
+
