@@ -1,7 +1,11 @@
 # dummy-google
 A dummy of the Google homepage which does absolutely nothing.An attempt to create a static copy of Google's homepage.
 
+The objective is to develop the page using RWD(_Responsive Web Design_) and Mobile First practices.
 
-# Bugs
-- ~~Sign in button shows underline behavior on hover.~~[Closed 22 Dec '15]
-- ~~Search box doesn't have bottom and right border.~~[Closed 28 Jan '16 (merged from libhide-master)] 
+## TODO
+
++ Develop using Mobile First principles, starting with a mobile device as the target device.
++ Align everything properly according to the position on the reference page.
++ use media queries to adjust to the tablet.
++ Use media queries to adjust to a big screen computer.
